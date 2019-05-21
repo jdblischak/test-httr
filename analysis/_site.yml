@@ -1,7 +1,7 @@
-name: "testing-2019-05-21"
+name: testing-2019-05-21
 output_dir: ../docs
 navbar:
-  title: "testing-2019-05-21"
+  title: testing-2019-05-21
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/jdblischak/test-httr1
 output:
   workflowr::wflow_html:
     toc: yes
